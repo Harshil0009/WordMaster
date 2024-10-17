@@ -1,0 +1,66 @@
+/* src/HomePage.css */
+.home-page {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .home-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 50px;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .movie-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-info {
+    padding: 10px;
+  }
+  
+  .movie-info h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .movie-info p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .movie-info button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .movie-info button:hover {
+    background-color: #0056b3;
+  }
+  
